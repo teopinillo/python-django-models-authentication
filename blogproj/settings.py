@@ -28,7 +28,7 @@ SECRET_KEY = '7ap986ojbr_ylhah(89vq)=_d*mwsw!k^f@$s-9v#wz*2)ili#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['10.0.0.124']
 
 # SILENCED_SYSTEM_CHECKS should be set to an empty list once the 
 # custom user model is setup. This is only added to support testing.
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'mainapp',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+AUTH_USER_MODEL = 'users.User'
