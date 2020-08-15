@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="1" file="tests.py" name="tests.UsersTestCase-20200815094633" skipped="0" tests="10" time="0.091" timestamp="2020-08-15T09:46:33">
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="7" name="test_task1_createapp" time="0.005" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="15" name="test_task2_add_settings" time="0.002" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="18" name="test_task3_add_template" time="0.003" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="22" name="test_task4_create_model" time="0.008" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="40" name="test_task5_register_admin" time="0.012" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="73" name="test_task6_add_settings" time="0.003" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="78" name="test_task7_setup_urls" time="0.012" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="143" name="test_task8_redirect_routes" time="0.009" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="169" name="test_task9_update_site_templates" time="0.004" timestamp="2020-08-15T09:46:33">
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" file="module2/tests.py" line="179" name="test_task10_make_migrations" time="0.032" timestamp="2020-08-15T09:46:33">
+			<failure message="Did you use `manage.py makemigrations` to create the `users` migrations file? Don't forget to `add` it to the git repo." type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/teopinillo/share/myApps/python/django/blog_project/python-django-models-authentication/module2/tests.py", line 182, in test_task10_make_migrations
+    self.assertTrue(os.path.isfile('users/migrations/0001_initial.py'), msg=msg)
+  File "/home/teopinillo/share/myApps/python/django/blog_project/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you use `manage.py makemigrations` to create the `users` migrations file? Don't forget to `add` it to the git repo.
+]]>			</failure>
+			<system-out>
+<![CDATA[]]>			</system-out>
+			<system-err>
+<![CDATA[]]>			</system-err>
+		</testcase>
+	</testsuite>
+</testsuites>
