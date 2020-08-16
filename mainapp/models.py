@@ -8,8 +8,8 @@ class BlogPost (models.Model):
     postdate = models.DateTimeField(auto_now_add=True, blank=True)
 
     def __str__(self):
-        self.title
-        
+        return self.title
+
     # Having a get_absolute_url method lets Django determine the canonical URL for a given model.
     # This will come in handy in our views.
 
