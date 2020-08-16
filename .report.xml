@@ -1,69 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite errors="0" failures="2" file="tests.py" name="tests.PostTestCase-20200815232210" skipped="0" tests="10" time="0.183" timestamp="2020-08-15T23:22:11">
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="235" name="test_task10_make_migrations" time="0.065" timestamp="2020-08-15T23:22:10">
+	<testsuite errors="0" failures="1" file="tests.py" name="tests.PostTestCase-20200815234337" skipped="0" tests="10" time="0.182" timestamp="2020-08-15T23:43:38">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="235" name="test_task10_make_migrations" time="0.065" timestamp="2020-08-15T23:43:37">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="111" name="test_task1_post_model_exists" time="0.011" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="111" name="test_task1_post_model_exists" time="0.011" timestamp="2020-08-15T23:43:37">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="133" name="test_task3_body_exists" time="0.006" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="120" name="test_task2_author_exists" time="0.010" timestamp="2020-08-15T23:43:37">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="139" name="test_task4_postdate_exists" time="0.008" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="133" name="test_task3_body_exists" time="0.006" timestamp="2020-08-15T23:43:37">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="148" name="test_task6_get_abs_url_exists" time="0.005" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="139" name="test_task4_postdate_exists" time="0.008" timestamp="2020-08-15T23:43:37">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="151" name="test_task7_register_model_in_admin" time="0.019" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="148" name="test_task6_get_abs_url_exists" time="0.006" timestamp="2020-08-15T23:43:38">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="173" name="test_task8_update_views_with_BlogPost" time="0.026" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="151" name="test_task7_register_model_in_admin" time="0.019" timestamp="2020-08-15T23:43:38">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="208" name="test_task9_update_post_view_with_BlogPost" time="0.024" timestamp="2020-08-15T23:22:11">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="173" name="test_task8_update_views_with_BlogPost" time="0.027" timestamp="2020-08-15T23:43:38">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="120" name="test_task2_author_exists" time="0.012" timestamp="2020-08-15T23:22:10">
-			<failure message="Did you set the `related_name` field in `ForeignKey`?" type="AssertionError">
-<![CDATA[Traceback (most recent call last):
-  File "/home/teopinillo/share/myApps/python/django/blog_project/python-django-models-authentication/module3/tests.py", line 130, in test_task2_author_exists
-    self.assertTrue(self.author_related_name_found, msg="Did you set the `related_name` field in `ForeignKey`?")
-  File "/home/teopinillo/share/myApps/python/django/blog_project/python-django-models-authentication/support/SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you set the `related_name` field in `ForeignKey`?
-]]>			</failure>
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="208" name="test_task9_update_post_view_with_BlogPost" time="0.024" timestamp="2020-08-15T23:43:38">
 			<system-out>
 <![CDATA[]]>			</system-out>
 			<system-err>
 <![CDATA[]]>			</system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="145" name="test_task5_str_exists" time="0.006" timestamp="2020-08-15T23:22:10">
+		<testcase classname="tests.PostTestCase" file="module3/tests.py" line="145" name="test_task5_str_exists" time="0.007" timestamp="2020-08-15T23:43:38">
 			<failure message="Did you implement the `__str__` method in the `post` model class?" type="AssertionError">
 <![CDATA[Traceback (most recent call last):
   File "/home/teopinillo/share/myApps/python/django/blog_project/python-django-models-authentication/module3/tests.py", line 146, in test_task5_str_exists
