@@ -32,7 +32,7 @@ def post(request, id):
     return render(request, 'mainapp/post.html', {'object': post})
 
 def tag_posts(request, name):
-    name.clean()
+    name = name.lower()
     title = "Posts about {}".format(name)
     tag = get_object_or_404 (Tag, name = name)
     posts = BlogPost.objects.filter (tags = tag)
