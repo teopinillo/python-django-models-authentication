@@ -11,6 +11,9 @@ class Tag (models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url (self):
+        return reverse('tag_posts', args=[str(self.name)])
+
 class BlogPost (models.Model):
     title = models.CharField ( max_length = 200, unique= True)
     author = models.ForeignKey (settings.AUTH_USER_MODEL, related_name="posts", on_delete=models.CASCADE )
@@ -21,9 +24,8 @@ class BlogPost (models.Model):
     def __str__(self):
         return self.title
 
-    # Having a get_absolute_url method lets Django determine the canonical URL for a given model.
-    # This will come in handy in our views.
-
     def get_absolute_url (self):
         return reverse('post', args=[str(self.id)])
+
+
 
